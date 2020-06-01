@@ -1,7 +1,9 @@
-const input = document.querySelector('input');
+var test = document.getElementById('input')
 
-function addingEventListener() {
-    input.addEventListener('click', function(event) {
-      return "clicked"
-    });
-  }
+
+function addingEventListener(){
+test.addEventListener('click', function(){
+  alert("I'm aewsome")
+})
+}
+addingEventListener()
